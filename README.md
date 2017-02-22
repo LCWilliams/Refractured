@@ -1,2 +1,2 @@
-# Refractured
-Devs On Wheels | University dissertation project.
+# REFRACTURED
+Devs on Wheels | University of Bolton
