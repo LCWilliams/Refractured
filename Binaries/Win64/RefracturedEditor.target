@@ -6,11 +6,13 @@
 	"Version" : 
 	{
 		"MajorVersion" : 4,
-		"MinorVersion" : 13,
-		"PatchVersion" : 2,
-		"Changelist" : 3172292,
+		"MinorVersion" : 15,
+		"PatchVersion" : 0,
+		"Changelist" : 3299760,
+		"CompatibleChangelist" : 0,
 		"IsLicenseeVersion" : 0,
-		"BranchName" : "++UE4+Release-4.13"
+		"IsPromotedBuild" : 1,
+		"BranchName" : "++UE4+Release-4.15"
 	},
 	"BuildProducts" :
 	[
@@ -25,6 +27,10 @@
 		{
 			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Refractured.lib",
 			"Type" : "ImportLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor.modules",
+			"Type" : "RequiredResource"
 		}
 	],
 	"RuntimeDependencies" :
@@ -62,7 +68,19 @@
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Plugins/Editor/AudioCapture/AudioCapture.uplugin",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Editor/FacialAnimation/FacialAnimation.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/GameplayTagsEditor.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -94,10 +112,6 @@
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Marketplace/Substance/Substance.uplugin",
-			"Type" : "UFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Plugins/Media/AndroidMedia/AndroidMedia.uplugin",
 			"Type" : "UFS"
 		},
@@ -107,6 +121,10 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/MfMedia/MfMedia.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -158,7 +176,11 @@
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/GearVR.uplugin",
+			"Path" : "$(EngineDir)/Plugins/Runtime/LocationServicesBPLibrary/LocationServicesBPLibrary.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -174,6 +196,10 @@
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/PhysXVehicles/PhysXVehicles.uplugin",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
 			"Type" : "UFS"
 		},
@@ -186,15 +212,19 @@
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Slate/SlateRemote/SlateRemote.uplugin",
-			"Type" : "UFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Content/Slate/...",
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Content/SlateDebug/...",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(ProjectDir)/Content/Slate/...",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Content/SlateDebug/...",
 			"Type" : "UFS"
 		}
 	]
