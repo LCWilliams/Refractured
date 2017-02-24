@@ -3,6 +3,7 @@ Type:Static
 Guid:3E0EAD98-4738-7B50-ED86-9DBC74DD9711
 ParentGuid:00000000-0000-0000-0000-000000000000
 
+/Game/Blueprints/Decorative/BP_JS_Floodlight_00.BP_JS_Floodlight_00
 /Game/Meshes/Architecture/Walls/3X/SM_LW_Wall_3x5_00.SM_LW_Wall_3x5_00
 /Game/Meshes/Architecture/Walls/3X/SM_LW_Wall_3x5_01.SM_LW_Wall_3x5_01
 /Game/Meshes/Architecture/Walls/5X/SM_LW_Wall_5x5_00.SM_LW_Wall_5x5_00
