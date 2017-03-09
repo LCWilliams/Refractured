@@ -7,6 +7,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Blueprints/Doors/BP_LW_Door_3x5_00.BP_LW_Door_3x5_00
 /Game/Blueprints/Doors/BP_LW_Door_3x5_01.BP_LW_Door_3x5_01
 /Game/Blueprints/Doors/BP_LW_Door_5x5_00.BP_LW_Door_5x5_00
+/Game/Blueprints/UnicornCube/BP_CB_Cube_01.BP_CB_Cube_01
 /Game/Meshes/Architecture/Floors/SM_LW_Floor_2x2_00.SM_LW_Floor_2x2_00
 /Game/Meshes/Architecture/Floors/SM_LW_Floor_2x2_01.SM_LW_Floor_2x2_01
 /Game/Meshes/Architecture/Floors/SM_LW_Floor_3x3_00.SM_LW_Floor_3x3_00
